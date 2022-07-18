@@ -4,21 +4,6 @@
 * NFT Images IPFS : ipfs://bafybeihyqxva6t4lrsrarkjqptksa6jvaerrynd4nouwh66zqszqzgbeni
 * NFT Metadata IPFS : ipfs://bafybeia3lejponr2skhobnhbcoauf4ldvwylpwcqmwgocqx2ustsqx6bby
 
-# Dividing the Parcel into Plots
-
-## Inputs
-1. KML File
-2. No of Parcels
-
-## Outputs
-1. Subplots kml and geojson
-
-## Requirements
-1. QGIS
-
-## Algorithm
-1. Plot Divider Plugin by Dr. Johnny Huck : https://jonnyhuck.co.uk/
-
 # Creating Images for Each Plot
 
 ## Inputs
@@ -43,3 +28,23 @@
 6. Mask individual plot shapes from tif file using rasterio.mask algorithm : https://rasterio.readthedocs.io/en/latest/api/rasterio.mask.html
 7. Convert white background into transparent PNG using PIL as rasterio mask fills up image with white background to have a rectanglar image of irregular shapes
 8. Draw grid in plot images and resize it 320x320 and 15 px padding on all sides to make it 350x350 which is recommended image size by OpenSea
+
+# IPFS Metadata Generator Script
+
+Have added metedata generator script which parses geojson, and takes input ipfs folder cid of kml and images, and generates jsons for all the plots
+
+# Dividing the Parcel into Plots
+
+## Inputs
+1. KML File
+2. Number of Parcels
+
+## Outputs
+1. Subplots kml and geojson
+
+## Requirements
+1. QGIS
+
+## Algorithm
+1. Plot Divider Plugin by Dr. Johnny Huck : https://jonnyhuck.co.uk/
+
