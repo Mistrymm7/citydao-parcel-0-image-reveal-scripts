@@ -1,8 +1,13 @@
+# Scripts
+* [NFT Plot Divider and Image Processing Script](https://colab.research.google.com/drive/1q_t1YBRwCaKZuafeVY9R4udp-Gea5TYj?usp=sharing)
+* [Metadata Generation Script](https://colab.research.google.com/drive/18uvdySxWb_BjoNEyIozZB-P8-1BMRQqM?usp=sharing)
+
 # Citydao Parcel0 Image Generation and IPFS Process for scripts development
 
 * KML IPFS : ipfs://bafybeieypckzw36w2zolhyttkef6oa2zhuldutljccse66jbakvdxkfyym
 * NFT Images IPFS : ipfs://bafybeihyqxva6t4lrsrarkjqptksa6jvaerrynd4nouwh66zqszqzgbeni
 * NFT Metadata IPFS : ipfs://bafybeia3lejponr2skhobnhbcoauf4ldvwylpwcqmwgocqx2ustsqx6bby
+
 
 # Creating Images for Each Plot
 
@@ -47,4 +52,5 @@ Have added metedata generator script which parses geojson, and takes input ipfs 
 
 ## Algorithm
 1. Plot Divider Plugin by Dr. Johnny Huck : https://jonnyhuck.co.uk/
+
 
